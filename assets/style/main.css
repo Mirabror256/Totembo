@@ -1,0 +1,173 @@
+main #leaders {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0;
+}
+main #leaders .leaders {
+  color: var(--bla);
+  display: flex;
+  justify-content: center;
+  font-family: var(--M);
+  font-size: 30px;
+  font-weight: 400;
+}
+main #leaders .container__block {
+  margin-top: 40px;
+}
+main #leaders .grid-container {
+  display: grid;
+  gap: 40px 24px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+main #leaders .item {
+  padding: 20px 20px 40px 20px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 15px 0px #8484844d;
+  background-color: var(--bg);
+}
+main #leaders .discount {
+  position: absolute;
+  border-radius: 10px;
+  padding: 13px 34px;
+  color: var(--whi);
+  background-color: var(--bla);
+  font-family: var(--M);
+  font-size: 20px;
+  font-weight: 400;
+}
+main #leaders .discount__item {
+  display: flex;
+  justify-content: space-between;
+}
+main #leaders .icon {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--whi);
+  color: var(--bla);
+}
+main #leaders .icon__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main #leaders .icon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #leaders .category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #leaders .name {
+  gap: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: var(--M);
+  font-size: 20px;
+  font-weight: 400;
+}
+main #leaders .name h2 {
+  font-family: var(--M);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+main #leaders .more {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  font-family: var(--M);
+  color: var(--bla);
+  font-size: 30px;
+  font-weight: 400;
+}
+main #news .title {
+  display: flex;
+  margin-top: 60px;
+  color: #000;
+  text-transform: uppercase;
+  font-family: var(--M);
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+main #news .container {
+  margin-inline: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+.grid--2col {
+  width: 100%;
+  display: grid;
+  gap: 24px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+.card--advice {
+  width: 100%;
+  max-width: 636px;
+  margin: 0 auto;
+  height: 100%;
+  padding-inline: 3rem;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+.card--advice::before {
+  content: "советы";
+  background-color: var(--whi);
+  position: absolute;
+  color: var(--bla);
+  left: 1rem;
+  justify-self: stretch;
+  top: 1rem;
+  padding: 0.8125rem 1.875rem;
+  font-family: var(--M);
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+#advice1 {
+  background: url(/assets/img/Rectangle\ 89.png) no-repeat;
+  background-size: cover;
+}
+.card--advice h2 {
+  color: var(--whi);
+  font-family: var(--M);
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.card--advice p {
+  color: var(--whi);
+  font-family: var(--M);
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.card--advice time {
+  color: var(--whi);
+  font-family: var(--M);
+  font-size: 1rem;
+  font-weight: 400;
+  display: inline;
+}
+.card--advice time::before {
+  content: url(/assets/img/Frame.png);
+  display: inline;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.card--advice time span::before {
+  content: "|";
+  display: inline;
+}

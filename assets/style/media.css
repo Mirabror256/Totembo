@@ -1,0 +1,128 @@
+@media (max-width: 1200px) {
+  header .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  header .card1,
+  header .card2,
+  header .card3 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 294px;
+  }
+  header .card2 img,
+  main #leaders .category img {
+    width: 174px;
+    height: 147px;
+  }
+  main #leaders .name,
+  header .card2 .name {
+    font-size: 16px;
+  }
+  main #leaders .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main #news .discount {
+    padding: 5px;
+  }
+}
+@media (max-width: 900px) {
+  header .container__nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+  header .navbar_half {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  header .container .navbar__list {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  header .container .navbar_icon {
+    margin-left: 0;
+    gap: 25px;
+    padding-top: 10px;
+  }
+  main #leaders .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  header .info {
+    gap: 15px;
+  }
+  .card__container {
+    flex-direction: column;
+  }
+  .line {
+    display: none;
+  }
+  header .discount,
+  main #leaders .discount {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  header .info {
+    gap: 10px;
+  }
+  main #news .title {
+    font-size: 25px;
+  }
+  .grid--2col {
+    grid-template-columns: 1fr;
+  }
+  .card--advice h2 {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .card--advice {
+    max-width: 100%;
+    padding-inline: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .card--advice::before {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  header .container .navbar_icon {
+    display: none;
+  }
+  header .container .navbar_half h1 {
+    font-size: 20px;
+  }
+  header .card1,
+  header .card2,
+  header .card3 {
+    width: 250px;
+  }
+  main #leaders {
+    padding: 30px 0;
+  }
+  main #leaders .leaders {
+    font-size: 24px;
+    text-align: center;
+  }
+  main #leaders .more {
+    font-size: 20px;
+  }
+  main #leaders .item {
+    width: 100%;
+    padding: 15px 15px 25px 15px;
+  }
+  main #leaders .discount {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+  main #leaders .icon {
+    display: none;
+  }
+  main #leaders .category {
+    padding: 20px;
+  }
+}
